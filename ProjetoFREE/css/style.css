@@ -1,0 +1,578 @@
+/* ========================================================== PRINCIPAIS ================================================================= */ 
+
+@import url("https://fonts.googleapis.com/css?family=Fredoka One");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+body{
+   background: linear-gradient(45deg, #131086, #b621f4);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin-top: -21px;
+}
+
+p{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 17px;
+}
+
+h1{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}
+/* ========================================================== Containers ================================================================= */ 
+.container{
+    width: 1080px;
+    text-align: center;
+    padding-top: 140px;
+    margin-left: 232px;
+    margin-right: 232px;
+}
+
+.container2{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.background-cinza{
+    margin: 0 auto;
+    background-color: #111111;
+}
+
+.container-btn{
+    width: 1080px;
+    text-align: center;
+    margin-left: 232px;
+    margin-right: 232px;
+}
+
+
+/* ========================================================== PAGES ================================================================= */
+
+.pagina2{
+    margin-top: 0px;
+}
+
+.pagina4{
+    padding-top: 50px;
+    height: 350px;
+}
+
+/* ========================================================== HEADER ================================================================= */
+
+.header{
+    width: 100%;
+    padding-top: 10px;
+    height: 90px;
+    background: #000;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.header_item{
+    height: 0px;
+}
+
+
+/* ========================================================== NAME PRINCIPAL ================================================================= */
+
+.name{
+        padding-left: 195px;
+        margin-top: 25px;
+        text-align: left;
+        float: left;
+        width: 35%;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+
+/* ========================================================== MENU ================================================================= */
+
+.menu ul li{
+    display: inline-block;  
+    padding-left: 35px;
+}
+
+.menu{
+    padding-left: 50px;
+    padding-top: 25px;
+    float: left;
+}
+
+.menu ul li a{
+    font-size: 14px;
+    font-family: 'inter';
+    text-decoration: none;
+    color: #FFF;
+    padding-bottom: 6px;
+}
+
+.menu ul li :hover{
+    border-bottom: 2px solid #b621f4;
+    height: 23.5px;
+}
+
+.menu ul li a:hover{
+    color:#b621f4;
+}
+
+/* ========================================================== HOME ================================================================= */
+
+.imagem_cadeirinhas{
+    opacity: 0.6;
+}
+
+.img2homem{
+    width: 600px;
+ padding-top: -100px;
+ padding-right: 0px;
+}
+
+.grid_img-sumary{
+    text-align: right;
+    margin-right: -60px;
+    margin-top: -40px;
+}
+.sumary{
+    width: 100%;
+    height: 500px;
+    padding-top: 0px;
+    display: inline-block;
+    text-align: left;
+}
+
+.grid_titulo_texto{
+    text-align: left;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+
+.titulo-sumary{
+    font-family: 'Poppins', sans-serif !important;;
+    color:#FFF;
+    font-weight:bold;
+    font-size: 75px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+.pequeno-texto{
+    display: inline-block;
+    text-align: left;
+    margin-top: -30px;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif !important;    
+    font-weight: bold;
+}
+
+.texto-about{
+    color: #000;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+
+.buttonzao{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.bigbutton{
+    background-color: #000;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bigbutton a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+}
+
+.bigbutton:hover{
+    background-color: #FFF;
+}
+
+.zapbutton{
+    margin-top: -170px;
+    margin-left: 30px;
+    float: left;
+    position: fixed;
+}
+
+.zap{
+    height: 60px;
+}
+
+/* ======================================================= ABOUT US ================================================ */
+
+.imghomem2{
+    opacity: 0.6;
+    height: 575px;
+    margin-top: -50px;
+}
+
+.grid-txt-aboutus{
+    text-align: right;
+}
+
+.aboutus{
+    width: 100%;
+    height: 730px;
+    display: inline-block;
+    text-align: left;
+    margin-top: -60px;
+}
+
+.grid-img-aboutus{
+    float: left;
+    height: 500px
+}
+
+.p-about{
+    text-align: left;
+    font-size: 20px;
+}
+
+.span-about{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif !important;
+    color: #FFF;
+}
+
+.port-span-about{
+ color: #b621f4;
+ font-weight: bolder;
+ padding-left: 2px;
+}
+
+.imghomem3{
+    opacity: 0.6;
+    height: 350px;
+    margin-top: -130px;
+    padding-right: 80px;
+}
+
+.grid-img-aboutus2{
+    text-align: right;
+
+}
+
+.grid-txt-aboutus2{
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 10PX;
+}
+
+
+.seta{  
+  position: absolute;
+  padding: -15px;
+  box-shadow: 5px -5px 1px #b621f4 inset;
+  border: solid transparent;
+  border-width: 0 0 2px 2px;
+  transform: rotate(315deg);
+  margin-left: 500px;
+  margin-top: -80px;
+  height: 60px;
+  width: 60px;
+}
+
+.botao-seta{
+    text-align: center;
+display: block;
+height: 100%;
+width: 100%;
+text-decoration: none;
+}
+
+/* ======================================================= PORTFÓLIO ================================================ */
+
+
+.imagens-port{
+    padding-top: 10px;
+}
+
+.imagens-port ul li{
+    display: inline-block;
+   padding-left: 12px;
+   padding-top: 12px;
+}
+
+.titulo-pagina3{
+    font-family: 'Poppins', sans-serif !important;;
+    color:#FFF;
+    font-weight:bold;
+    font-size: 38px;
+    margin-top: -20px;
+}
+
+.barra{
+    border-bottom: #FFF solid 3px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.span-projeto{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 19px;
+}
+
+.span-voce{
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* ======================================================= CONTATO ================================================ */
+
+.background-cinza-contato{
+    margin: 0 auto;
+    background-color: #111111;
+    height: 370px;
+}
+
+.titulo-pagina4{
+    margin-top: -80px;
+    color: #b621f4;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.barra-contato{
+    border-bottom: #b621f4 solid 3px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.telefone img{
+    margin-top: -12px;
+    float: left;
+    height: 50px;
+}
+
+.instagram img{
+    margin-top: -12px;
+    float: left;
+    height: 50px;
+}
+
+.email img{
+    margin-top: -12px;
+    float: left;
+    height: 50px;
+}
+
+.contatos-lista{
+    padding-top: 30px;
+    padding-bottom: 55px;
+    margin-left: -200px;
+}
+
+.contatos-lista li{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.contatos-lista a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 17px;
+}
+
+.btn-contatos{
+    background-color: #b621f4;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-contatos a{
+    text-decoration: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+}
+
+.btn-contatos:hover{
+    background-color: #FFF;
+}
+
+/* ======================================================= ORÇAMENTO ================================================ */
+
+.background-orçamento{
+    margin: 0 auto;
+    background :url("../img/back-orçamento-adp.jpg");
+    height: 370px;
+}
+
+
+.titulo-pagina5{
+    text-align: left;
+    color: #fff;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.btn-orcamento{
+    background-color: #fff;
+    font-size:38px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-orcamento:hover{
+    background-color: #000;
+}
+
+.orçamento-txt-a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+    color: #b621f4;
+}
+
+.grid-btn-orcamento{
+    display: block;
+    text-align: right;
+    padding-left: 200px;
+    margin-top: -130px;
+
+}
+
+.grid-titulo5{
+    display: inline-block;
+    text-align: left;
+    margin-top: -35px;
+}
+
+.orcamento-total{
+    display: block;
+    text-align: left;
+}
+
+.paraoseu{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.efacaseu{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.orcamentospan{
+    padding-left: 5px;
+    font-weight: bolder;
+    color:#b621f4;
+}
+
+/* ======================================================= FOOTER ================================================ */
+
+.span2{
+    padding-top: 15px;
+}
+
+.edsger{
+    display: block;
+    padding-top: 8px;
+}
+
+
+.rodape1{
+    display: block;
+    margin-top: -120px;
+    height: 95px;
+    
+}
+
+.background-footer1{
+    background-color: #000;
+    height: 115px;
+}
+
+.txt-footer{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.web-footer{
+    color: #b621f4;
+    padding-right: 2px;
+}
+
+.texto-motivacional{
+    font-family: 'Poppins', sans-serif !important;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.rodape2{
+    background-color: #b621f4;
+    padding-top: 12px;
+    height: 30px;
+    
+}
+
+.rodape2-texto{
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif !important;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.rodape2-texto2{
+    display: inline;
+    float: right;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif !important;
+    color: #FFF;
+    font-size: 14px;
+}
