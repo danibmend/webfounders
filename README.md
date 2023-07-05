@@ -13,7 +13,7 @@ Aqui estão alguns gifs do site desse projeto, para ver o video completo vá na 
 <br>
 <br>
 <p align = center>
-<img width="480" heigth="270" src ="projectClips/gifSecond.gif">
+<img width="480" heigth="270" src ="ProjetoFREEprojectClips/gifSecond.gif">
 </p>
 
 ## About me
